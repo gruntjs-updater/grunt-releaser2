@@ -1,7 +1,7 @@
 {
   "name": "grunt-releaser2",
   "description": "A wrapper task for grunt-release",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/mcsdh/grunt-releaser2",
   "author": {
     "name": "Leon Coto",
