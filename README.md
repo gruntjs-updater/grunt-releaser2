@@ -32,11 +32,11 @@ In this case, a two steps process allows to run additonal tasks after bumping th
 grunt.initConfig({
   releaser: {
     options: {
-      // Any valid `grunt-release` option is allowed here
+      // Any valid grunt-release option is allowed here
       reloadpkg: true // default: false
     },
     your_target: {
-      // Any valid `grunt-release` option is allowed here
+      // Any valid grunt-release option is allowed here
       reloadpkg: true // default: false
     },
   },
@@ -53,7 +53,7 @@ See [grunt-release](https://github.com/geddski/grunt-release).
 Type: `Boolean`
 Default value: `false`
 
-If `true` reloads `package.json` after running `release:[type]`
+If `true` reloads `package.json` after running `releaser:[target]P[type]`
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
