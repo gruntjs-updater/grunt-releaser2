@@ -1,0 +1,46 @@
+{
+  "name": "grunt-releaser2",
+  "description": "A wrapper task for grunt-release",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mcsdh/grunt-releaser2",
+  "author": {
+    "name": "Leon Coto",
+    "email": "leon.coto@mcsaatchi.com",
+    "url": "mcsaatchi.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcsdh/grunt-releaser2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcsdh/grunt-releaser2/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mcsdh/grunt-releaser2/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-release": "~0.10.0",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
